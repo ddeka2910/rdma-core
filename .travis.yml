@@ -32,3 +32,5 @@ addons:
 
 script:
   - bash build.sh
+  - cd tests
+  - ./run_tests.py
